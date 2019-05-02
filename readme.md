@@ -1,1 +1,1 @@
-#This is the application that connects friendsss
+#This is the application that connects friendssss
