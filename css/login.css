@@ -24,10 +24,10 @@ a{
 	right:0;left:0;
     margin:auto;
     height:400px;
-    background-color: rgba(236, 48, 20, 0.9);
+    background-color: #e44d3a;
 }
 .white-panel{
-    background-color: rgba(255,255, 255, 1);
+    background-color: rgb(25, 240, 255);
     height:500px;
     position:absolute;
     top:-50px;
@@ -42,7 +42,7 @@ a{
     display:none;
 }
 .login-reg-panel{
-    color:#B8B8B8;
+    color:#000;
 }
 .login-reg-panel #label-login, 
 .login-reg-panel #label-register{
