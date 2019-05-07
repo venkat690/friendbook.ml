@@ -40,6 +40,8 @@ function js()
     <script type="text/javascript" src="lib/slick/slick.min.js"></script>
     <script type="text/javascript" src="js/scrollbar.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/flatpicker.min.js"></script>
+
     <script src="js/login.js"></script>
     ';
 }
@@ -50,46 +52,46 @@ function navbar_after()
         <div class="container">
             <div class="header-data">
                 <div class="logo">
-                    <a href="index-2.html" title=""><img src="images/logo.png" alt=""></a>
-                </div><!--logo end-->
+                    <a href="home.php" title=""><img src="images/logo.png" alt=""></a>
+                </div>
                 <div class="search-bar">
                     <form>
                         <input type="text" name="search" placeholder="Search...">
                         <button type="submit"><i class="la la-search"></i></button>
                     </form>
-                </div><!--search-bar end-->
+                </div>
                 <nav>
                     <ul>
                         <li>
-                            <a href="index-2.html" title="">
+                            <a href="home.php" title="">
                                 <span><img src="images/icon1.png" alt=""></span>
                                 Home
                             </a>
                         </li>
                         <li>
-                            <a href="companies.html" title="">
+                            <a href="companies.php" title="">
                                 <span><img src="images/icon2.png" alt=""></span>
                                 Companies
                             </a>
                         </li>
                         <li>
-                            <a href="projects.html" title="">
+                            <a href="projects.php" title="">
                                 <span><img src="images/icon3.png" alt=""></span>
                                 Projects
                             </a>
                         </li>
                         <li>
-                            <a href="profiles.html" title="">
+                            <a href="profiles.php" title="">
                                 <span><img src="images/icon4.png" alt=""></span>
                                 Profiles
                             </a>
                             <ul>
-                                <li><a href="user-profile.html" title="">User Profile</a></li>
-                                <li><a href="my-profile-feed.html" title="">my-profile-feed</a></li>
+                                <li><a href="user-profile.php" title="">User Profile</a></li>
+                                <li><a href="my-profile-feed.php" title="">my-profile-feed</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="jobs.html" title="">
+                            <a href="jobs.php" title="">
                                 <span><img src="images/icon5.png" alt=""></span>
                                 Jobs
                             </a>
@@ -113,7 +115,7 @@ function navbar_after()
                                             <h3><a href="messages.html" title="">Jassica William</a> </h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
                                             <span>2 min ago</span>
-                                        </div><!--notification-info -->
+                                        </div>
                                     </div>
                                     <div class="notfication-details">
                                         <div class="noty-user-img">
@@ -123,7 +125,7 @@ function navbar_after()
                                             <h3><a href="messages.html" title="">Jassica William</a></h3>
                                             <p>Lorem ipsum dolor sit amet.</p>
                                             <span>2 min ago</span>
-                                        </div><!--notification-info -->
+                                        </div>
                                     </div>
                                     <div class="notfication-details">
                                         <div class="noty-user-img">
@@ -133,13 +135,13 @@ function navbar_after()
                                             <h3><a href="messages.html" title="">Jassica William</a></h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua.</p>
                                             <span>2 min ago</span>
-                                        </div><!--notification-info -->
+                                        </div>
                                     </div>
                                     <div class="view-all-nots">
-                                        <a href="messages.html" title="">View All Messsages</a>
+                                        <a href="messages.php" title="">View All Messsages</a>
                                     </div>
-                                </div><!--nott-list end-->
-                            </div><!--notification-box end-->
+                                </div>
+                            </div>
                         </li>
                         <li>
                             <a href="#" title="" class="not-box-open">
@@ -159,7 +161,7 @@ function navbar_after()
                                         <div class="notification-info">
                                             <h3><a href="#" title="">Jassica William</a> Comment on your project.</h3>
                                             <span>2 min ago</span>
-                                        </div><!--notification-info -->
+                                        </div>
                                     </div>
                                     <div class="notfication-details">
                                         <div class="noty-user-img">
@@ -168,7 +170,7 @@ function navbar_after()
                                         <div class="notification-info">
                                             <h3><a href="#" title="">Jassica William</a> Comment on your project.</h3>
                                             <span>2 min ago</span>
-                                        </div><!--notification-info -->
+                                        </div>
                                     </div>
                                     <div class="notfication-details">
                                         <div class="noty-user-img">
@@ -177,7 +179,7 @@ function navbar_after()
                                         <div class="notification-info">
                                             <h3><a href="#" title="">Jassica William</a> Comment on your project.</h3>
                                             <span>2 min ago</span>
-                                        </div><!--notification-info -->
+                                        </div>
                                     </div>
                                     <div class="notfication-details">
                                         <div class="noty-user-img">
@@ -186,13 +188,13 @@ function navbar_after()
                                         <div class="notification-info">
                                             <h3><a href="#" title="">Jassica William</a> Comment on your project.</h3>
                                             <span>2 min ago</span>
-                                        </div><!--notification-info -->
+                                        </div>
                                     </div>
                                     <div class="view-all-nots">
-                                        <a href="#" title="">View All Notification</a>
+                                        <a href="notifications.php" title="">View All Notification</a>
                                     </div>
-                                </div><!--nott-list end-->
-                            </div><!--notification-box end-->
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </nav><!--nav end-->
@@ -256,7 +258,7 @@ function navbar_before()
     <div class="container">
         <div class="header-data">
             <div class="logo">
-                <a href="index-2.html" title=""><img src="images/logo.png" alt=""></a>
+                <a href="index.php" title=""><img src="images/logo.png" alt=""></a>
             </div>           
             <nav class="pull-right">
                 <ul>
@@ -279,10 +281,6 @@ function navbar_before()
 ';
 }
 
-function footer()
-{
-    
-}
 
 
 ?>
