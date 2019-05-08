@@ -8,18 +8,72 @@ Class Connection {
                               PDO::ATTR_EMULATE_PREPARES   => false
                             );
     protected $con;
-    public function openConnection(){
+    function __construct() {
         try{
             $this->con = new PDO($this->server, $this->user,$this->pass,$this->options);
             return $this->con;
           }
           catch (PDOException $e){
-            echo "There is some problem in connection: " . $e->getMessage();
+            throw new \PDOException($e->getMessage(), (int)$e->getCode());
           }
     }
     public function closeConnection(){
       $this->con = null;
     }
+    public function insert_data($query, $params = [] ){
+      try{
+        $stmt = $this->con->prepare($query);
+        $stmt->execute($params);
+        return TRUE;
+      }catch (PDOException $e){
+        throw new \PDOException($e->getMessage(), (int)$e->getCode());
+      }
+    }
+    public function update_data($query, $params = [] ){
+      try{
+        $stmt = $this->con->prepare($query);
+        $stmt->execute($params);
+        return TRUE;
+      }catch (PDOException $e){
+        throw new \PDOException($e->getMessage(), (int)$e->getCode());
+      }
+    }
+    public function delete_data($query, $params = [] ){
+      try{
+        $stmt = $this->con->prepare($query);
+        $stmt->execute($params);
+        return TRUE;
+      }catch (PDOException $e){
+        throw new \PDOException($e->getMessage(), (int)$e->getCode());
+      }
+    }
+    public function select_single_row($query, $params = [] ){
+      try{
+        $stmt = $this->con->prepare($query);
+        $stmt->execute($params);
+        return $stmt->fetch();
+      }catch (PDOException $e){
+        throw new \PDOException($e->getMessage(), (int)$e->getCode());
+      }
+    }
+    public function select_mutiple($query, $params = [] ){
+      try{
+        $stmt = $this->con->prepare($query);
+        $stmt->execute($params);
+        return $stmt->fetchAll();
+      }catch (PDOException $e){
+        throw new \PDOException($e->getMessage(), (int)$e->getCode());
+      }
+    }
+    public function row_count($query, $params = [] ){
+      try{
+        $stmt = $this->con->prepare($query);
+        $stmt->execute($params);
+        return $stmt->rowCount();
+      }catch (PDOException $e){
+        throw new \PDOException($e->getMessage(), (int)$e->getCode());
+      }
+    }   
+    
 }
-
 ?>

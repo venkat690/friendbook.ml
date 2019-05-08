@@ -1,5 +1,4 @@
 <?php
-
 function way_top()
 {
    echo '
@@ -254,7 +253,7 @@ function navbar_after()
     </header>	
     ';
 }
-/*
+
 function navbar_before()
 {
     echo ' 
@@ -284,7 +283,7 @@ function navbar_before()
 </header>
 ';
 
-} */
+}
 
 
 
