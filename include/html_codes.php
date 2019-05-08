@@ -26,7 +26,7 @@ function css()
     <link rel="stylesheet" type="text/css" href="lib/slick/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
-    <link rel="stylesheet" href="css/login.css">
+  
     ';
     
 }
@@ -42,9 +42,12 @@ function js()
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/flatpicker.min.js"></script>
 
-    <script src="js/login.js"></script>
+  
     ';
 }
+
+// <script src="js/login.js"></script>
+
 function navbar_after()
 {
     echo '
@@ -197,7 +200,7 @@ function navbar_after()
                             </div>
                         </li>
                     </ul>
-                </nav><!--nav end-->
+                </nav>
                 <div class="menu-btn">
                     <a href="#" title=""><i class="fa fa-bars"></i></a>
                 </div><!--menu-btn end-->
@@ -235,7 +238,7 @@ function navbar_after()
                                 <input type="text" name="search">
                                 <button type="submit">Ok</button>
                             </form>
-                        </div><!--search_form end-->
+                        </div>
                         <h3>Setting</h3>
                         <ul class="us-links">
                             <li><a href="profile-account-setting.html" title="">Account Setting</a></li>
@@ -244,13 +247,14 @@ function navbar_after()
                             <li><a href="#" title="">Terms & Conditions</a></li>
                         </ul>
                         <h3 class="tc"><a href="#" title="">Logout</a></h3>
-                    </div><!--user-account-settingss end-->
+                    </div>
                 </div>
-            </div><!--header-data end-->
+            </div>
         </div>
-    </header><!--header end-->	
+    </header>	
     ';
 }
+/*
 function navbar_before()
 {
     echo ' 
@@ -279,7 +283,8 @@ function navbar_before()
     </div>
 </header>
 ';
-}
+
+} */
 
 
 

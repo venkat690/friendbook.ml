@@ -7,9 +7,7 @@ css();
 
 </head> 
 <body>
-<?php
-navbar_after();
-?>
+<?php navbar_after(); ?>
 		
 
 
@@ -196,11 +194,6 @@ navbar_after();
 			</div>
 		</section><!--companies-info end-->
 
-
-
-
 <?php js(); ?>
 </body>
-
-<!-- Mirrored from gambolthemes.net/workwise_demo/HTML/companies.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 May 2019 15:52:17 GMT -->
 </html>
