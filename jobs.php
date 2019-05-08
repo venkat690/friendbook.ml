@@ -587,8 +587,6 @@ navbar_after();
 		</div><!--post-project-popup end-->
 
 
-	</div><!--theme-layout end-->
-
 
 	<?php js(); ?>
 

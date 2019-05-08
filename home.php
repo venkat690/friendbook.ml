@@ -874,19 +874,16 @@ navbar_after();
 			</div>
 		</div><!--chatbox-list end-->
 
-	</div><!--theme-layout end-->
-
-
-
+<!-- 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/popper.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>
 <script type="text/javascript" src="lib/slick/slick.min.js"></script>
 <script type="text/javascript" src="js/scrollbar.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/script.js"></script> -->
+
+<?php js(); ?>
 
 </body>
-
-<!-- Mirrored from gambolthemes.net/workwise_demo/HTML/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 May 2019 15:52:11 GMT -->
 </html>

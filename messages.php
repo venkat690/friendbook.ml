@@ -255,12 +255,10 @@ navbar_after();
 			</div>
 		</footer>
 
-	</div><!--theme-layout end-->
 
 
 	<?php js(); ?>
 
 </body>
 
-<!-- Mirrored from gambolthemes.net/workwise_demo/HTML/messages.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 May 2019 15:52:51 GMT -->
 </html>

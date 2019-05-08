@@ -207,12 +207,8 @@ navbar_after();
 		</section><!--companies-info end-->
 
 
-	</div><!--theme-layout end-->
-
 
 	<?php js(); ?>
 
 </body>
-
-<!-- Mirrored from gambolthemes.net/workwise_demo/HTML/profiles.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 May 2019 15:52:27 GMT -->
 </html>

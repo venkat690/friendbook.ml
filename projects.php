@@ -597,11 +597,8 @@ navbar_after();
 		</div><!--post-project-popup end-->
 
 
-	</div><!--theme-layout end-->
-
 	<?php js(); ?>
 
 </body>
 
-<!-- Mirrored from gambolthemes.net/workwise_demo/HTML/projects.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 May 2019 15:52:18 GMT -->
 </html>

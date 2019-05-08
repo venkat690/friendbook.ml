@@ -575,10 +575,7 @@ navbar_after();
 
 
 
-	</div><!--theme-layout end-->
-
 <?php js(); ?>
 </body>
 
-<!-- Mirrored from gambolthemes.net/workwise_demo/HTML/user-profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 May 2019 15:52:45 GMT -->
 </html>

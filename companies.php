@@ -197,7 +197,6 @@ navbar_after();
 		</section><!--companies-info end-->
 
 
-	</div><!--theme-layout end-->
 
 
 <?php js(); ?>

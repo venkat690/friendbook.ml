@@ -1278,12 +1278,10 @@ navbar_after();
 			</div><!--overview-edit end-->
 		</div><!--overview-box end-->
 
-	</div><!--theme-layout end-->
 
 
 	<?php js(); ?>
 
 </body>
 
-<!-- Mirrored from gambolthemes.net/workwise_demo/HTML/my-profile-feed.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 May 2019 15:52:48 GMT -->
 </html>
